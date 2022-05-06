@@ -21,7 +21,7 @@ main {
   margin-right: 30px;
   padding: 10px;
   position: relative;
-  background-color: #eee;
+  background-color: #;
 }
 
 .content-box:last-child {
@@ -31,20 +31,37 @@ main {
 .content1-img {
   height:150px;
   background-image: url("img/flow01.png");
-  background-size: cover;
+  background-size: contain;
   background-position: top;
 }
 
 .content2-img {
   height:150px;
   background-image: url("img/flow02.png");
-  background-size: cover;
+  background-size: contain;
   background-position: top;
 }
 
 .content3-img {
   height:150px;
   background-image: url("img/flow03.png");
-  background-size: cover;
+  background-size: contain;
   background-position: top;
+}
+
+span {
+  position: absolute;
+  top:0;
+  left:0;
+  background-color:#FF9A4B;
+  color:#fff;
+}
+
+h3 {
+  margin:15px 0 5px;
+}
+
+footer {
+  height:50px;
+  background-color:#AAAAAA;
 }
