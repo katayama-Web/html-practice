@@ -89,22 +89,32 @@ footer {
   }
   
   .content-box{
-    width: 100%;
+    width: 90%;
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .content-box2 {
-    width: 100%;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .content-box3 {
-    width: 100%;
+    width: 90%;
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .content1-img {
     height: 150px;
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -113,6 +123,8 @@ footer {
    .content2-img {
     height: 150px;
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     background-repeat: no-repeat;
     background-size: 100% auto;
   }
@@ -120,6 +132,8 @@ footer {
    .content3-img {
     height: 150px;
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     background-repeat: no-repeat;
     background-size: 100% auto;
   }
