@@ -24,6 +24,11 @@
   flex-basis: 140px;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+}
+
 .limegreen {
   background-color: #00FF00;
   width: 300px;
@@ -32,10 +37,12 @@
 
 .green {
   background-color: #008000;
+  padding: 20px;
   display: flex;
   max-width: 700px;
   flex-grow: 1;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .green > div {
@@ -43,4 +50,20 @@
   margin: 10px;
   height: 130px;
   flex-basis: 200px;
+}
+
+footer {
+  background-color: #52a1ff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer > div {
+  background-color: #b6e7ff;
+  width: 45%;
+  max-width: 600px;
+  height: 40px;
+  margin: 10px;
 }
